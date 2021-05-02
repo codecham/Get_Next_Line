@@ -6,7 +6,7 @@
 /*   By: codecham <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/01 17:28:07 by codecham          #+#    #+#             */
-/*   Updated: 2021/05/01 17:28:58 by codecham         ###   ########.fr       */
+/*   Updated: 2021/05/02 19:47:05 by codecham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include "unistd.h"
 # include "stdlib.h"
 # include "limits.h"
+// # define BUFFER_SIZE 32
 
 int		get_next_line(int fd, char **line);
 int		ft_strlen(char *str);
